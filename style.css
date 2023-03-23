@@ -1,0 +1,12 @@
+#image
+{
+ width: 50%;
+ height: auto;
+ max-width: 100%;
+
+}
+
+img
+{
+  display: block;
+}
