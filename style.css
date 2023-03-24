@@ -1,12 +1,37 @@
+*
+{
+  background-color: #262A56;
+  color: #E3CCAE;
+}
+
 #image
 {
  width: 50%;
  height: auto;
  max-width: 100%;
-
+ margin: auto;
+ min-width: 12em;
 }
 
 img
 {
   display: block;
+}
+
+h1
+{
+  display: block;
+  text-align: center;
+}
+
+#img-caption
+{
+  display: block;
+  text-align: center;
+}
+
+#tribute-info
+{
+  padding: 0 8% 0 8%;
+  text-align: center;
 }
