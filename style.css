@@ -7,9 +7,9 @@ html
 #image
 {
   display: block;
- width: auto;
+ width: 50%;
  height: auto;
- max-width: 50%;
+ max-width: 100%;
  margin: auto;
  min-width: 10em;
 }
