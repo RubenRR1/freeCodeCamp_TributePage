@@ -1,4 +1,4 @@
-*
+html
 {
   background-color: #262A56;
   color: #E3CCAE;
@@ -6,22 +6,38 @@
 
 #image
 {
- width: 50%;
+  display: block;
+ width: auto;
  height: auto;
- max-width: 100%;
+ max-width: 50%;
  margin: auto;
- min-width: 12em;
+ min-width: 10em;
+}
+
+figure
+{
+  display: block;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 0.1em;
+  border-radius: 30px;
+  min-width: 14em;
 }
 
 img
 {
   display: block;
+  border: 3px solid#E3CCAE;
+  margin: 0;
+
 }
 
 h1
 {
   display: block;
   text-align: center;
+  background-color: #000000;
+  border-radius: 10px;
 }
 
 #img-caption
@@ -32,6 +48,52 @@ h1
 
 #tribute-info
 {
-  padding: 0 8% 0 8%;
+  margin: 0;
+  padding: 10px 8% 10px 8%;
   text-align: center;
+  font-size: 25;
+}
+
+#disclaimer
+{
+  text-align: center;
+  padding: 0.3em;
+  margin: 30px 12% 0 12%;
+  color: #E3CCAE;
+}
+
+#tribute-link
+{
+  text-align: center;
+  margin: 0;
+  color: #E3CCAE;
+}
+
+#tribute-link:hover
+{
+  color: #B8621B;
+}
+
+div
+{
+  text-align: center;
+}
+
+ul
+{
+  margin: 0 70px 0 50px;
+  margin-bottom: 20px;
+  padding: 0 0 0 50px;
+}
+
+li
+{
+  display: list-item;
+  padding-top: 25px;
+}
+
+strong
+{
+  font-weight: bold;
+  color: #FFEECF;
 }
